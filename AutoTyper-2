@@ -1,0 +1,34 @@
+#Program to fill the values in multiple fields 
+
+import pyautogui
+import time
+
+# Set a delay to allow time to switch to the application you want to type in
+time.sleep(5)
+
+# Type the desired text one character at a time with a small delay between each keystroke
+# Patient Name
+pyautogui.typewrite(" AutoTyper Tool ", interval=0.1)
+time.sleep(5)
+
+# Father Name
+pyautogui.typewrite(" JonnyBravo7666 ", interval=0.1)
+time.sleep(5)
+
+# Address_1
+pyautogui.typewrite(" github.com/jonnybravo7666 ", interval=0.1)
+time.sleep(5)
+
+# Email Address
+pyautogui.typewrite(" jonnybravo@gmail.com ", interval=0.1)
+time.sleep(5)
+
+# PhoneNo_1
+pyautogui.typewrite(" 1234567890 ", interval=0.1)
+time.sleep(5)
+
+# Date OF_Birth
+pyautogui.typewrite(" **/**/**** ", interval=0.1)
+
+# Press enter key to submit the form
+pyautogui.press('enter')
