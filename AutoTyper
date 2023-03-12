@@ -1,0 +1,8 @@
+import pyautogui
+import time
+
+# Set a delay to allow time to switch to the application you want to type in
+time.sleep(5)
+
+# Type the desired text one character at a time with a small delay between each keystroke
+pyautogui.typewrite("AutoTyper Tool", interval=0.1)
